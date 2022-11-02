@@ -10,6 +10,9 @@ groups user-name
 # change user
 su - user-name
 
+# delete user and his directory: you will need admin privileges
+sudo userdel -r user-name
+
 # generate ssh key
 ssh-keygen
 
